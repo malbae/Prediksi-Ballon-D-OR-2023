@@ -7,3 +7,8 @@ daftar_barang = {
     "Sabun": 10000,
     "Shampoo": 15000
 }
+
+print("Selamat datang di Program Kasir Swalayan!")
+nama = input("Silakan masukkan nama Anda: ")
+items = []
+prices = []
