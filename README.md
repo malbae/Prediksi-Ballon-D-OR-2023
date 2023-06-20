@@ -1,2 +1,2 @@
-# Prediksi-Ballon-D-OR-2023
-Random generator pemain di penghargaan ballon d'or 2023 dengan data persenan setiap pemainnya diambil dari performa dan trofi di seluruh kompetisi yang dijalani dalam satu musim 
+Progam Kasir Swalayan
+progam ini digunakan untuk membantu serta memudahkan anda dalam transaksi di swalayan.progam ini dapat digunakan untuk menghitung jumlah total barang,total harga,dan mengeluarkan nota pembayaran.
