@@ -20,6 +20,9 @@ while True:
     print("")
     print("====================================================================================")
     item = input("Masukkan nama barang yang ingin Anda beli (atau 'selesai' untuk menyelesaikan order): ")
+    if item == "kembali":
+        items.pop()
+        item = inputan()
     if item == 'selesai':
         break
     if item not in daftar_barang:
