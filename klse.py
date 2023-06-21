@@ -24,7 +24,7 @@ while True:
         print("Barang yang Anda masukkan tidak tersedia.")
         continue
 
-price =price = daftar_barang[item]
+    price = daftar_barang[item]
     quantity = int(input("Masukkan jumlah barang: "))
     items.append(item)
     prices.append(price * quantity)
