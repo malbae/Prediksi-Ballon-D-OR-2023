@@ -15,20 +15,13 @@ prices = []
 print("Berikut Adalah Daftar Barang Dan Harga:")
 for k, v in daftar_barang.items():
  print(f"{k}: Rp {v:,}")
-
+    
 while True:
-    print("")
-    print("====================================================================================")
-    item = input("Masukkan nama barang yang ingin Anda beli (atau 'selesai' untuk menyelesaikan order): ")
-    if item == "kembali":
-        items.pop()
-        item = inputan()
-    if item == 'selesai':
-        break
-    if item not in daftar_barang:
-        print("Barang yang Anda masukkan tidak tersedia.")
-        continue
-
+    def inputan():
+        print("")
+        print("====================================================================================")
+        return input("Masukkan nama barang yang ingin Anda beli 'selesai' atau 'kembali' : ")
+    item = inputan()
     price = daftar_barang[item]
     quantity = int(input("Masukkan jumlah barang: "))
     items.append(item)
