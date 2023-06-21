@@ -12,6 +12,8 @@ print("Selamat Datang Di Program Kasir Swalayan!")
 nama = input("Silakan Masukkan Nama Anda: ")
 items = []
 prices = []
+print("Berikut Adalah Daftar Barang Dan Harga:")
+
 
 while True:
     print("Berikut Adalah Daftar Barang Dan Harga:")
