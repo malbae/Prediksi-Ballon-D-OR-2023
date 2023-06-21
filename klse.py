@@ -24,6 +24,11 @@ while True:
         print("Barang yang Anda masukkan tidak tersedia.")
         continue
 
+price =price = daftar_barang[item]
+    quantity = int(input("Masukkan jumlah barang: "))
+    items.append(item)
+    prices.append(price * quantity)
+
 def print_receipt(items, prices):
     print(f"\n\nNota Pembelian\n-----------------------")
     total = 0
@@ -34,3 +39,4 @@ def print_receipt(items, prices):
     print("{:<20} Rp {:>8.2f}".format("Total:", total))
 
 print_receipt(items, prices)
+
