@@ -14,6 +14,7 @@ items = []
 prices = []
 print("Berikut Adalah Daftar Barang Dan Harga:")
 for k, v in daftar_barang.items():
+ print(f"{k}: Rp {v:,}")
 
 while True:
     print("Berikut Adalah Daftar Barang Dan Harga:")
