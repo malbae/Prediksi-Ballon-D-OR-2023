@@ -13,7 +13,7 @@ nama = input("Silakan Masukkan Nama Anda: ")
 items = []
 prices = []
 print("Berikut Adalah Daftar Barang Dan Harga:")
-
+for k, v in daftar_barang.items():
 
 while True:
     print("Berikut Adalah Daftar Barang Dan Harga:")
