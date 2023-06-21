@@ -17,9 +17,8 @@ for k, v in daftar_barang.items():
  print(f"{k}: Rp {v:,}")
 
 while True:
-    print("Berikut Adalah Daftar Barang Dan Harga:")
-    for k, v in daftar_barang.items():
-        print(f"{k}: Rp {v:,}")
+    print("")
+    print("====================================================================================")
     item = input("Masukkan nama barang yang ingin Anda beli (atau 'selesai' untuk menyelesaikan order): ")
     if item == 'selesai':
         break
