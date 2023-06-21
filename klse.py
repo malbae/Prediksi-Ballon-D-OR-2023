@@ -8,13 +8,13 @@ daftar_barang = {
     "Shampoo": 15000 
 }
 
-print("Selamat datang di Program Kasir Swalayan!")
-nama = input("Silakan masukkan nama Anda: ")
+print("Selamat Datang Di Program Kasir Swalayan!")
+nama = input("Silakan Masukkan Nama Anda: ")
 items = []
 prices = []
 
 while True:
-    print("Berikut adalah daftar barang dan harga:")
+    print("Berikut Adalah Daftar Barang Dan Harga:")
     for k, v in daftar_barang.items():
         print(f"{k}: Rp {v:,}")
     item = input("Masukkan nama barang yang ingin Anda beli (atau 'selesai' untuk menyelesaikan order): ")
