@@ -25,7 +25,12 @@ while True:
     if item == "kembali":
         items.pop()
         item = inputan()
-        
+    if item == 'selesai':
+        break
+    if item not in daftar_barang:
+        print("Barang yang Anda masukkan tidak tersedia.")
+        continue
+    
     price = daftar_barang[item]
     quantity = int(input("Masukkan jumlah barang: "))
     items.append(item)
