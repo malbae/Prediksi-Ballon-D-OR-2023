@@ -25,6 +25,7 @@ while True:
     if item == "kembali":
         items.pop()
         item = inputan()
+        
     price = daftar_barang[item]
     quantity = int(input("Masukkan jumlah barang: "))
     items.append(item)
