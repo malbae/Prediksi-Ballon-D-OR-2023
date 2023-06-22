@@ -22,6 +22,9 @@ while True:
         print("====================================================================================")
         return input("Masukkan nama barang yang ingin Anda beli 'selesai' atau 'kembali' : ")
     item = inputan()
+    if item == "kembali":
+        items.pop()
+        item = inputan()
     price = daftar_barang[item]
     quantity = int(input("Masukkan jumlah barang: "))
     items.append(item)
